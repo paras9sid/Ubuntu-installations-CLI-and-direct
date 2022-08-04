@@ -1,0 +1,9 @@
+
+if in terminal dpkg deb error occurs - try below writen codes again --
+
+You can try to solve it by opening the Terminal (tipically Ctrl + Alt + T) and from there executing
+
+sudo dpkg -i --force-overwrite /var/cache/apt/archives/nodejs_12.20.0-deb-1nodesource1_amd64.deb
+and then
+
+sudo apt -f install
